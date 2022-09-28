@@ -2,8 +2,8 @@
 // Lab Activity 1
 // Create a palindrome checker.
 import java.util.Scanner;
-public class Palindrome {
-    void Palindrome(){
+public class Main {
+    public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter word/phrase:");
         String word = input.nextLine();
