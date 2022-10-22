@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
         Stack<String> stk = new Stack<>();
         Scanner input = new Scanner(System.in);
-        System.out.println("Enter Tokens: ");
+        System.out.print("Enter Tokens: ");
         String input_token = input.nextLine();
         String[] tokens = input_token.split("\\s+");
         for (int i = 0; i <tokens.length ; i++) {
